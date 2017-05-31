@@ -133,6 +133,10 @@ main {
 .bg--email h2 {
 	opacity: .5;
 }
+#mc_embed_signup {
+	background:#fff;
+	clear:left;
+}
 footer {
 	background-color: #121A41;
 	position: fixed;
