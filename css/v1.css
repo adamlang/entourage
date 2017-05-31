@@ -70,6 +70,9 @@ img {
   height: auto;
   width: 100%;
 }
+button, input, optgroup, select, textarea, .btn {
+	font-family: 'Montserrat', Arial, sans-serif;
+}
 .btn, #mc_embed_signup [type=submit] {
 	display: inline-block;
   line-height: 1.6rem;
