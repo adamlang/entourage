@@ -123,6 +123,7 @@ img {
 }
 header {
 	padding: 2rem 0;
+	z-index: 2;
 }
 .logo {
 	max-width: 139px;
@@ -147,6 +148,7 @@ header {
 main {
 	position: relative;
   padding: 1rem 0 6rem;
+	z-index: 2;
 }
 .bg--email {
 	position: relative;
