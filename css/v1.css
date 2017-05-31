@@ -96,9 +96,11 @@ img {
 	  border-image-slice: 1;
 		color: #fff;
     font-weight: 400;
+		cursor:pointer;
 }
 .btn-primary:hover, #mc_embed_signup [type=submit]:hover {
 	background-color: #121B42;
+	border-radius: 3px;
 	border: 2px solid transparent;
 	-moz-border-image: -moz-linear-gradient(top left, #fae784 0%, #eea96b 25%, #eb3955 100%);
 	-webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #eea96b 25%, #eb3955 100%);
@@ -108,9 +110,11 @@ img {
   transition: all 0.3s ease 0s;
   box-shadow: 0 0 0 transparent !important;
 	font-weight: 400;
+	cursor:pointer;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus, #mc_embed_signup [type=submit]:active, #mc_embed_signup [type=submit]:focus, #mc_embed_signup [type=submit]:active:focus {
 	background-color: #121B42;
+	border-radius: 3px;
 	border: 2px solid transparent;
 	-moz-border-image: -moz-linear-gradient(top left, #fae784 0%, #eea96b 25%, #eb3955 100%);
 	-webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #eea96b 25%, #eb3955 100%);
@@ -120,6 +124,7 @@ img {
 	transition: all 0.3s ease 0s;
   box-shadow: 0 0 0 transparent !important;
 	font-weight: 400;
+	cursor:pointer;
 }
 header {
 	padding: 2rem 0;
