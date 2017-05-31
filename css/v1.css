@@ -29,7 +29,7 @@ body, html {
 h1 {
 	font-size: 32px;
 	line-height: 36px;
-	font-weight: bold;
+	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
 }
@@ -50,6 +50,7 @@ body, p, i {
 	color: #fff;
 	font-size: 16px;
   margin: 0 0 1.5rem;
+	font-weight: 400;
 	font-family: 'Montserrat', Arial, sans-serif;
 }
 p {
@@ -77,16 +78,33 @@ header {
 	text-align: right;
 }
 .bg {
+	display: block;
+	position: relative;
+	height: 100%;
+}
+.bg:after {
 	background-image: url(/assets/entourage-splash-page-hero.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100%;
+	z-index: -2;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	content: "";
 }
 main {
 	padding: 3rem 0;
 }
 .bg--email {
+	position: relative;
+	padding: 2rem;
+	margin-top: 3rem;
+}
+.bg--email:after {
 	background: #fae784; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(-45deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* Chrome10-25,Safari5.1-6 */
@@ -95,7 +113,14 @@ main {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding: 2rem;
+	opacity: .7;
+	z-index: -1;
+	content: "";
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 @media (min-width: 768px) {
 	h1 {
