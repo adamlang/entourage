@@ -132,10 +132,13 @@ main {
 }
 footer {
 	background-color: #121A41;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 footer p {
 	opacity: .25;
-	padding: 2rem 0;
+	padding: 1rem 0;
 }
 @media (min-width: 768px) {
 	h1 {
