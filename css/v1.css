@@ -1,0 +1,76 @@
+// LP Styles
+
+html {
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+@media (max-width: 480px) {
+	html { font-size: 13px; }
+}
+body {
+    font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+		font-weight: normal;
+		background-image: url(../assets/entourage-splash-page-hero.jpg);
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		margin: 0 !important;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.svg#@{icon-font-svg-id}') format('svg');
+}
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-family: "Gotham Bold", Arial, sans-serif;;
+}
+h1 {
+	font-size: 32px;
+	line-height: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+h2 {
+	color: #fff;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
+h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: bold;
+}
+body, p, i {
+	color: #fff;
+	font-size: 16px;
+  margin: 0 0 1.5rem;
+}
+p {
+	margin-bottom: 1rem;
+}
+a {
+	color: #fdcf09;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+  height: auto;
+  width: 100%;
+}
+main {
+	padding: 3rem 0;
+}
+@media (min-width: 768px) {
+	h1 {
+		font-size: 40px;
+		line-height: 46px;
+	}
+}
