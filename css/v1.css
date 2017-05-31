@@ -69,6 +69,50 @@ img {
   height: auto;
   width: 100%;
 }
+.btn {
+	display: inline-block;
+  line-height: 1.6rem;
+  margin-bottom: 0;
+  outline: medium none;
+  padding: 1.4rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: normal;
+  font-weight: normal;
+}
+.btn-primary {
+    background-color: #121B42;
+		border-color: #fae784; /* Old browsers */
+		border-color: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
+		border-color: -webkit-linear-gradient(-45deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* Chrome10-25,Safari5.1-6 */
+		border-color: linear-gradient(135deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #fff;
+    font-weight: 400;
+}
+.btn-primary:hover, .open > .dropdown-toggle.btn-default:hover, .open > .dropdown-toggle.btn-default {
+	background-color: #121B42;
+	border-color: #fae784; /* Old browsers */
+	border-color: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
+	border-color: -webkit-linear-gradient(-45deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* Chrome10-25,Safari5.1-6 */
+	border-color: linear-gradient(135deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: #fff;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 0 0 transparent !important;
+	font-weight: 400;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:active:focus {
+	background-color: #121B42;
+	border-color: #fae784; /* Old browsers */
+	border-color: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
+	border-color: -webkit-linear-gradient(-45deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* Chrome10-25,Safari5.1-6 */
+	border-color: linear-gradient(135deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: #fff;
+	transition: all 0.3s ease 0s;
+  box-shadow: 0 0 0 transparent !important;
+	font-weight: 400;
+}
 header {
 	padding: 2rem 0;
 }
@@ -134,8 +178,23 @@ main {
 	opacity: .5;
 }
 #mc_embed_signup {
-	background:#fff;
 	clear:left;
+}
+#mc_embed_signup form {
+	padding: 0;
+}
+#mc_embed_signup .mc-field-group.input-group ul li {
+	display: inline-block;
+}
+#mc_embed_signup .mc-field-group.input-group ul li:last-child {
+	margin-left: 2rem;
+}
+#mc_embed_signup .mc-field-group.input-group ul li label {
+	padding-left: .5rem;
+	display: inline-block;
+}
+#mc_embed_signup input {
+	border-radius: 0;
 }
 footer {
 	background-color: #121A41;
