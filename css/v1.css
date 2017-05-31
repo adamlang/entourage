@@ -41,7 +41,7 @@ h2 {
 	color: #fff;
 	font-size: 24px;
 	line-height: 30px;
-	font-weight: 400;
+	font-weight: 300;
 }
 h3 {
 	color: #fff;
@@ -129,6 +129,9 @@ main {
 	bottom: 0;
 	right: 0;
 	left: 0;
+}
+.bg--email h2 {
+	opacity: .5;
 }
 footer {
 	background-color: #121A41;
