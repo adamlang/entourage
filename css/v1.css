@@ -142,7 +142,7 @@ footer {
 }
 footer p {
 	opacity: .25;
-	padding: 1rem 0;
+	padding: .5rem 0;
 	margin-bottom: 0;
 }
 @media (min-width: 768px) {
