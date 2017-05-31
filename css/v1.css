@@ -69,7 +69,7 @@ img {
   height: auto;
   width: 100%;
 }
-.btn {
+.btn, #mc_embed_signup input {
 	display: inline-block;
   line-height: 1.6rem;
   margin-bottom: 0;
@@ -82,7 +82,7 @@ img {
   white-space: normal;
   font-weight: normal;
 }
-.btn-primary {
+.btn-primary, #mc_embed_signup input {
     background-color: #121B42;
 		border-color: #fae784; /* Old browsers */
 		border-color: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
@@ -91,7 +91,7 @@ img {
     color: #fff;
     font-weight: 400;
 }
-.btn-primary:hover, .open > .dropdown-toggle.btn-default:hover, .open > .dropdown-toggle.btn-default {
+.btn-primary:hover, #mc_embed_signup input:hover {
 	background-color: #121B42;
 	border-color: #fae784; /* Old browsers */
 	border-color: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
@@ -102,7 +102,7 @@ img {
   box-shadow: 0 0 0 transparent !important;
 	font-weight: 400;
 }
-.btn-primary:active, .btn-primary:focus, .btn-primary:active:focus {
+.btn-primary:active, .btn-primary:focus, .btn-primary:active:focus, #mc_embed_signup input:active, #mc_embed_signup input:focus, #mc_embed_signup input:active:focus {
 	background-color: #121B42;
 	border-color: #fae784; /* Old browsers */
 	border-color: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
@@ -149,7 +149,7 @@ header {
 }
 main {
 	position: relative;
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 .bg--email {
 	position: relative;
