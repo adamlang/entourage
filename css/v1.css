@@ -72,12 +72,12 @@ img {
 .btn, #mc_embed_signup [type=submit] {
 	display: inline-block;
   line-height: 1.6rem;
+	font-size: 16px;
   margin-bottom: 0;
   outline: medium none;
-  padding: 1.4rem 2rem;
+  padding: .5rem 1.5rem;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   vertical-align: middle;
   white-space: normal;
   font-weight: normal;
@@ -176,6 +176,9 @@ main {
 }
 .bg--email h2 {
 	opacity: .5;
+}
+#mc-embedded-subscribe {
+	margin: 0;
 }
 #mc_embed_signup {
 	clear:left;
