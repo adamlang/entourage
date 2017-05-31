@@ -156,7 +156,7 @@ header {
 }
 main {
 	position: relative;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 .bg--email {
 	position: relative;
@@ -208,7 +208,10 @@ main {
 }
 #mc_embed_signup .mc-field-group {
 	width: 100%;
-	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+}
+.right {
+	text-align: right;
 }
 footer {
 	background-color: #121A41;
@@ -221,6 +224,9 @@ footer p {
 	font-size: 12px;
 }
 @media (min-width: 768px) {
+	main {
+	  margin: 3rem 0;
+	}
 	h1 {
 		font-size: 50px;
 		line-height: 58px;
