@@ -64,6 +64,16 @@ img {
   height: auto;
   width: 100%;
 }
+header {
+	margin: 1rem 0;
+}
+.logo {
+	max-width: 139px;
+	margin: 1rem 0;
+}
+.social {
+	margin: 1rem 0;
+}
 .bg {
 	background-image: url(/assets/entourage-splash-page-hero.jpg);
 	background-size: cover;
