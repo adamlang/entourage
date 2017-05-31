@@ -107,7 +107,6 @@ img {
 	border-image: linear-gradient(to bottom right, #fae784 0%, #eea96b 25%, #eb3955 100%);
 	border-image-slice: 1;
 	color: #fff;
-  transition: all 0.3s ease 0s;
   box-shadow: 0 0 0 transparent !important;
 	font-weight: 400;
 	cursor:pointer;
@@ -121,7 +120,6 @@ img {
 	border-image: linear-gradient(to bottom right, #fae784 0%, #eea96b 25%, #eb3955 100%);
 	border-image-slice: 1;
 	color: #fff;
-	transition: all 0.3s ease 0s;
   box-shadow: 0 0 0 transparent !important;
 	font-weight: 400;
 	cursor:pointer;
