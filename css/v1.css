@@ -24,7 +24,7 @@ body, html {
 .h1, .h2, .h3, h1, h2, h3 {
 	margin-top: 0;
 	margin-bottom: 1rem;
-	font-family: "Gotham Bold", Arial, sans-serif;;
+	font-family: 'Montserrat', Arial, sans-serif;
 }
 h1 {
 	font-size: 32px;
@@ -50,6 +50,7 @@ body, p, i {
 	color: #fff;
 	font-size: 16px;
   margin: 0 0 1.5rem;
+	font-family: 'Montserrat', Arial, sans-serif;
 }
 p {
 	margin-bottom: 1rem;
@@ -65,7 +66,7 @@ img {
   width: 100%;
 }
 header {
-	margin: 1rem 0;
+	margin: 2rem 0;
 }
 .logo {
 	max-width: 139px;
@@ -73,6 +74,7 @@ header {
 }
 .social {
 	margin: 1rem 0;
+	text-align: right;
 }
 .bg {
 	background-image: url(/assets/entourage-splash-page-hero.jpg);
@@ -86,7 +88,7 @@ main {
 }
 @media (min-width: 768px) {
 	h1 {
-		font-size: 40px;
-		line-height: 46px;
+		font-size: 50px;
+		line-height: 58px;
 	}
 }
