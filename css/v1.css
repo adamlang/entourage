@@ -86,6 +86,17 @@ header {
 main {
 	padding: 3rem 0;
 }
+.bg--email {
+	background: #fae784; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #fae784 0%, #eea96b 25%, #eb3955 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #fae784 0%,#eea96b 25%,#eb3955 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fae784', endColorstr='#eb3955',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 2rem;
+}
 @media (min-width: 768px) {
 	h1 {
 		font-size: 50px;
